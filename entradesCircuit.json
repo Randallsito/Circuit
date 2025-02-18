@@ -1,0 +1,40 @@
+{
+    "localitats": [
+        {
+            "id": 1,
+            "nom": "Pelouse",
+            "preu": 100,
+            "entrades_disponibles": 200
+        },
+        {
+            "id": 2,
+            "nom": "Tribuna Principal",
+            "preu": 250,
+            "entrades_disponibles": 150
+        },
+        {
+            "id": 3,
+            "nom": "Tribuna G",
+            "preu": 180,
+            "entrades_disponibles": 100
+        },
+        {
+            "id": 4,
+            "nom": "Tribuna C",
+            "preu": 200,
+            "entrades_disponibles": 160
+        },
+        {
+            "id": 5,
+            "nom": "Tribuna F",
+            "preu": 220,
+            "entrades_disponibles": 120
+        },
+        {
+            "id": 6,
+            "nom": "Tribuna H",
+            "preu": 160,
+            "entrades_disponibles": 85
+        }
+    ]
+}

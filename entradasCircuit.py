@@ -17,7 +17,19 @@ def mostrarLocalitats():
 
 
 def reservarLocalitat():
-    pass
+    localitats = llegirArixiuJson()
+    mostrarLocalitats()
+    nom = input("Introdueix el nom de la localitat a reservar: ")
+    for localitat in localitats:
+        if localitat["nom"] == nom:
+            if localitat["entrades_disponibles"] > 0:
+                localitat["entrades_disponibles"] -= 1
+                escriureArxiuJson(localitats)
+                print("Reserva realitzada correctament")
+            else:
+                print("No hi ha entrades disponibles")
+            return
+    print("Localitat no trobada")
     
 def menu():
     while True:
